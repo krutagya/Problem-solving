@@ -8,10 +8,11 @@ int main(){
     int password;
     printf("enter password");
     scanf("%d",&password);
-    if(username=="admin" && password==1234){
-        printf("login successful");
+    int verify= strcmp(username,"admin");
+    if(verify==0 && password==1234){
+        printf("Login sussessful");
     }
     else{
-        printf("login fail");
+        printf("lofin failed");
     }
 }

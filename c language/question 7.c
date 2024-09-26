@@ -8,16 +8,20 @@ int main(){
     char light[6];
     printf("enter color of light");
     scanf("%s",&light);
-    if(light=="red"){
-        printf{"STOP"};
+    int verify1=strcmp(light,"red");
+    if(verify1==0){
+        printf("Stop");
     }
-    else if(light=="yellow"){
+    int verify2 =strcmp(light,"yellow");
+    if(verify2==0){
         printf("Slow down");
     }
-    else if(light=="green"){
-        printf("Go");
+    int verify3 =strcmp(light,"green");
+    if(verify3==0){
+        printf("go");
     }
     else{
-        printf("input red,green or yellow color");
+        printf("inncorrect innput")
     }
+    return 0;
 }
