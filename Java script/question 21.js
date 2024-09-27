@@ -1,7 +1,5 @@
-// 22. Write a program to find the length of a given string.
-var string="krutagya"
-var cnt=0
-for(i=0;i!=undefined;i++){
-    cnt++
-}
-console.log(cnt)
+// 21. Write a program to convert a given string to uppercase.Example: Input: "hello", Output: "HELLO".
+var input="hello"
+var capital= input.toUpperCase()
+console.log(capital);
+
