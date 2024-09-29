@@ -6,3 +6,5 @@ for(i=0;i<len;i++){
     arr[i]=string[i]
 }
 console.log(arr)
+
+
