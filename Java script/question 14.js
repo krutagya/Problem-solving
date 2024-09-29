@@ -3,10 +3,12 @@
 // var output=array.unshift(0)
 // console.log(array)
 
-or
+// or
 
 var array=[1,2,3,4]
 var len=array.length
-for(i=0;i<len;i++){
-    arr[0]=0
+for(i=len;i>0;i--){
+    array[i]=array[i-1]
 }
+array[0]=0;
+console.log(array)
