@@ -5,4 +5,4 @@ var output=[]
 for(i=num1;i<=num2;i++){
     output.push(i)
 }
-console.log(output)
+console.log(output);
