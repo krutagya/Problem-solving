@@ -4,10 +4,12 @@
 var input="1.1.1.1"
 var len=input.length
 for(i=0;i<len;i++){
-    if(input[i]="."){
-
+    if(input[i]!="."){
+        console.log(input[i])
+    }
+    else{
+        console.log("[.]")
     }
 }
-console.log(input)
 
 
