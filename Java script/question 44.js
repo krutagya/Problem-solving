@@ -5,9 +5,13 @@
 // Output: ["a", "ab", "abc", "b", "bc","c"]
 var input="abc"
 var len=input.length
+var output=[]
+var temp;
 for(i=0;i<len;i++){
-    output=input[i]
-    for(j=i+1;j<len;j++){
+    temp=""
+    for(j=i;j<len;j++){
+        temp=temp+input[j]
+        output.push(temp)
     }
 }
 console.log(output)
