@@ -15,6 +15,5 @@ int main(){
     for(j=0;j<len2;j++){
         temp[len1+j]=str2[j];
     }
-    printf("%s", temp);
-    
+    printf("%s", temp); 
 }

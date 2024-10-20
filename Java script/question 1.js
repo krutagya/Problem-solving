@@ -26,5 +26,3 @@ function grade(marks){
     }
 }
 grade(55)
-
-
